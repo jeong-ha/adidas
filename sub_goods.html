@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <title>adidas_jh</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap" rel="stylesheet">
+        <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+        <div id="header"></div>
+        <div id="ad"></div>
+        <!--sub_men시작-->
+            <div class="sub_filezilla"></div>
+            <div class="sub_full">
+                <!--서브메인-->
+                <div id="sub_m_fixed"></div>
+                <div id="sub_good_info">
+                    <div id="sub_good_left">
+                        
+                    </div>
+                    <div id="sub_good_right">
+                    오즈위고<br>
+                    man's originals<br>
+                    139,000원<br>
+                    
+                    </div>
+                </div>
+
+            
+                
+                
+            </div>
+            
+            
+            <!--하단영역-->
+            <div id="footer"></div>
+            <div id="footer640"></div>
+        </div>
+        
+        
+        <script>
+            //페이지가 로드되면 실행
+            $(document).ready(function(){
+                $("#header").load("header2.html");
+                $("#ad").load("ad.html");
+                $("#footer").load("footer.html");
+                $("#footer640").load("footer2.html");
+                //header아이디에 header.html을 로드
+            });
+        </script>
+        
+    </body>
+    
+    
+    
+    
+</html>
